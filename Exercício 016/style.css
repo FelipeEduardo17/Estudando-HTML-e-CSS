@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{  
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+p{
+    text-align: justify;
+    
+}
+main{
+border-radius: 20px;
+background-color: #F2F2F2;
+box-shadow: 7px 8px 15px #111112ee;
+width: 800px;
+padding: 15px;
+margin:auto;
+
+}
+.container{
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;    /* Centraliza na vertical */
+    height: 100vh;    /* Faz o container ocupar 100% da altura da tela */
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1{ text-align: center;
+    color: #73020C;
+    text-shadow: 1px 2px 2px rgb(39, 39, 120);
+}
+h2{
+    color: #732C2C;
+}
+body{
+    background-image: linear-gradient(to right, #202123,#586B73,#732C2C);
+}
